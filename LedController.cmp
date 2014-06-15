@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sun 01 Jun 2014 10:29:02 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sat 14 Jun 2014 08:59:15 PM PDT
 
 BeginCmp
 TimeStamp = /538DFABC;
@@ -15,171 +15,227 @@ IdModule  = Connect:SIL-7;
 EndCmp
 
 BeginCmp
+TimeStamp = /538C26C6;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538C186A;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538C1E2C;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538C14CD;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538C6B77;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538C59B5;
+Reference = P7;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538C5600;
+Reference = P8;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /538C462F;
+Reference = P9;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /538DB755;
 Reference = Q1;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB942;
 Reference = Q2;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB7A4;
 Reference = Q3;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB509;
 Reference = Q4;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB707;
 Reference = Q5;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB7FA;
 Reference = Q6;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB8F2;
 Reference = Q7;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB601;
 Reference = Q8;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB6B4;
 Reference = Q9;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB88F;
 Reference = Q10;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB843;
 Reference = Q11;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DB64A;
 Reference = Q12;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DACF6;
 Reference = Q13;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAB16;
 Reference = Q14;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAE89;
 Reference = Q15;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAD42;
 Reference = Q16;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DACA7;
 Reference = Q17;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAA31;
 Reference = Q18;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAF28;
 Reference = Q19;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAD9B;
 Reference = Q20;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAC45;
 Reference = Q21;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAAAD;
 Reference = Q22;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DAF7C;
 Reference = Q23;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
 TimeStamp = /538DADED;
 Reference = Q24;
 ValeurCmp = PSMN9R8-30MLC;
-IdModule  = ;
+IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
@@ -200,7 +256,7 @@ BeginCmp
 TimeStamp = /538DC6A6;
 Reference = U1;
 ValeurCmp = TLC5947;
-IdModule  = ;
+IdModule  = LedController:tlc5947;
 EndCmp
 
 EndListe
