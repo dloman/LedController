@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sat 14 Jun 2014 08:59:15 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sat 29 Nov 2014 09:39:45 PM PST
 
 BeginCmp
 TimeStamp = /538DFABC;
@@ -18,56 +18,63 @@ BeginCmp
 TimeStamp = /538C26C6;
 Reference = P2;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_4pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /538C186A;
 Reference = P3;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_4pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /538C1E2C;
 Reference = P4;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_4pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /538C14CD;
 Reference = P5;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_4pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /538C6B77;
 Reference = P6;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_4pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /538C59B5;
 Reference = P7;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_4pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /538C5600;
 Reference = P8;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_4pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /538C462F;
 Reference = P9;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B88F88;
+Reference = P10;
+ValeurCmp = CONN_2;
+IdModule  = LedController:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
 EndCmp
 
 BeginCmp
@@ -250,6 +257,174 @@ TimeStamp = /538D447C;
 Reference = R2;
 ValeurCmp = R;
 IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AC411;
+Reference = R3;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547ABAD6;
+Reference = R4;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF0A2;
+Reference = R5;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547ADF3D;
+Reference = R6;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AC4BC;
+Reference = R7;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AB9ED;
+Reference = R8;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AEED7;
+Reference = R9;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AE0C0;
+Reference = R10;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AA986;
+Reference = R11;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547ACC9A;
+Reference = R12;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AE3DF;
+Reference = R13;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AEBAF;
+Reference = R14;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF6C7;
+Reference = R15;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AFB42;
+Reference = R16;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF98F;
+Reference = R17;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF320;
+Reference = R18;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF7D6;
+Reference = R19;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AFA10;
+Reference = R20;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AFBEC;
+Reference = R21;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF848;
+Reference = R22;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF743;
+Reference = R23;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AFCAD;
+Reference = R24;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AFA88;
+Reference = R25;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /547AF8DB;
+Reference = R26;
+ValeurCmp = 2.2k;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
