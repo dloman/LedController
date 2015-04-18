@@ -1,262 +1,94 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sat 14 Jun 2014 08:59:15 PM PDT
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sat 18 Apr 2015 02:27:28 PM PDT
 
 BeginCmp
 TimeStamp = /538DFABC;
 Reference = C1;
 ValeurCmp = 20n;
-IdModule  = Capacitors_SMD:c_1206;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /538D2866;
+TimeStamp = /552B417E;
 Reference = P1;
-ValeurCmp = CONN_7;
-IdModule  = Connect:SIL-7;
+ValeurCmp = CONN_01X07;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x07;
 EndCmp
 
 BeginCmp
-TimeStamp = /538C26C6;
+TimeStamp = /552B42CF;
 Reference = P2;
-ValeurCmp = CONN_4;
-IdModule  = ;
+ValeurCmp = CONN_01X07;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x07;
 EndCmp
 
 BeginCmp
-TimeStamp = /538C186A;
+TimeStamp = /552B57E3;
 Reference = P3;
-ValeurCmp = CONN_4;
-IdModule  = ;
+ValeurCmp = CONN_01X08;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x08;
 EndCmp
 
 BeginCmp
-TimeStamp = /538C1E2C;
-Reference = P4;
-ValeurCmp = CONN_4;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /538C14CD;
-Reference = P5;
-ValeurCmp = CONN_4;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /538C6B77;
-Reference = P6;
-ValeurCmp = CONN_4;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /538C59B5;
-Reference = P7;
-ValeurCmp = CONN_4;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /538C5600;
-Reference = P8;
-ValeurCmp = CONN_4;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /538C462F;
-Reference = P9;
-ValeurCmp = CONN_4;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DB755;
+TimeStamp = /552B35EE;
 Reference = Q1;
 ValeurCmp = PSMN9R8-30MLC;
 IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
-TimeStamp = /538DB942;
+TimeStamp = /538DB88F;
 Reference = Q2;
 ValeurCmp = PSMN9R8-30MLC;
 IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
-TimeStamp = /538DB7A4;
+TimeStamp = /552B368E;
 Reference = Q3;
 ValeurCmp = PSMN9R8-30MLC;
 IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
-TimeStamp = /538DB509;
+TimeStamp = /552B3714;
 Reference = Q4;
 ValeurCmp = PSMN9R8-30MLC;
 IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
-TimeStamp = /538DB707;
+TimeStamp = /552B394A;
 Reference = Q5;
 ValeurCmp = PSMN9R8-30MLC;
 IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
-TimeStamp = /538DB7FA;
+TimeStamp = /552B3BA6;
 Reference = Q6;
 ValeurCmp = PSMN9R8-30MLC;
 IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
-TimeStamp = /538DB8F2;
+TimeStamp = /552B3C70;
 Reference = Q7;
 ValeurCmp = PSMN9R8-30MLC;
 IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
-TimeStamp = /538DB601;
+TimeStamp = /552B3730;
 Reference = Q8;
 ValeurCmp = PSMN9R8-30MLC;
 IdModule  = LedController:PSMN9R8-30MLC;
 EndCmp
 
 BeginCmp
-TimeStamp = /538DB6B4;
-Reference = Q9;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DB88F;
-Reference = Q10;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DB843;
-Reference = Q11;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DB64A;
-Reference = Q12;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DACF6;
-Reference = Q13;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAB16;
-Reference = Q14;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAE89;
-Reference = Q15;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAD42;
-Reference = Q16;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DACA7;
-Reference = Q17;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAA31;
-Reference = Q18;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAF28;
-Reference = Q19;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAD9B;
-Reference = Q20;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAC45;
-Reference = Q21;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAAAD;
-Reference = Q22;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DAF7C;
-Reference = Q23;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DADED;
-Reference = Q24;
-ValeurCmp = PSMN9R8-30MLC;
-IdModule  = LedController:PSMN9R8-30MLC;
-EndCmp
-
-BeginCmp
-TimeStamp = /538D4501;
-Reference = R1;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /538D447C;
-Reference = R2;
-ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /538DC6A6;
+TimeStamp = /552B3267;
 Reference = U1;
-ValeurCmp = TLC5947;
-IdModule  = LedController:tlc5947;
+ValeurCmp = 74LS595;
+IdModule  = SparkFun:SparkFun-TSSOP16;
 EndCmp
 
 EndListe
