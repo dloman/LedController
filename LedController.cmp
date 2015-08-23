@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sat 18 Apr 2015 02:27:28 PM PDT
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sun 19 Apr 2015 07:34:19 PM PDT
 
 BeginCmp
 TimeStamp = /538DFABC;
@@ -11,21 +11,28 @@ BeginCmp
 TimeStamp = /552B417E;
 Reference = P1;
 ValeurCmp = CONN_01X07;
-IdModule  = Socket_Strips:Socket_Strip_Angled_1x07;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x07;
 EndCmp
 
 BeginCmp
 TimeStamp = /552B42CF;
 Reference = P2;
 ValeurCmp = CONN_01X07;
-IdModule  = Socket_Strips:Socket_Strip_Angled_1x07;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x07;
 EndCmp
 
 BeginCmp
-TimeStamp = /552B57E3;
+TimeStamp = /5533237A;
 Reference = P3;
-ValeurCmp = CONN_01X08;
-IdModule  = Socket_Strips:Socket_Strip_Angled_1x08;
+ValeurCmp = CONN_4;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /553322EF;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
 EndCmp
 
 BeginCmp

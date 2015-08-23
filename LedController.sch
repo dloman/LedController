@@ -102,12 +102,12 @@ $EndComp
 $Comp
 L PSMN9R8-30MLC Q1
 U 1 1 552B35EE
-P 6100 1950
-F 0 "Q1" H 6050 1550 70  0000 C CNN
-F 1 "PSMN9R8-30MLC" H 6100 2400 60  0000 C CNN
-F 2 "LedController:PSMN9R8-30MLC" H 6100 1950 60  0001 C CNN
-F 3 "" H 6100 1950 60  0000 C CNN
-	1    6100 1950
+P 7550 3150
+F 0 "Q1" H 7500 2750 70  0000 C CNN
+F 1 "PSMN9R8-30MLC" H 7550 3600 60  0000 C CNN
+F 2 "LedController:PSMN9R8-30MLC" H 7550 3150 60  0001 C CNN
+F 3 "" H 7550 3150 60  0000 C CNN
+	1    7550 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -146,12 +146,12 @@ $EndComp
 $Comp
 L PSMN9R8-30MLC Q6
 U 1 1 552B3BA6
-P 7550 3150
-F 0 "Q6" H 7500 2750 70  0000 C CNN
-F 1 "PSMN9R8-30MLC" H 7550 3600 60  0000 C CNN
-F 2 "LedController:PSMN9R8-30MLC" H 7550 3150 60  0001 C CNN
-F 3 "" H 7550 3150 60  0000 C CNN
-	1    7550 3150
+P 6100 1950
+F 0 "Q6" H 6050 1550 70  0000 C CNN
+F 1 "PSMN9R8-30MLC" H 6100 2400 60  0000 C CNN
+F 2 "LedController:PSMN9R8-30MLC" H 6100 1950 60  0001 C CNN
+F 3 "" H 6100 1950 60  0000 C CNN
+	1    6100 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -281,7 +281,7 @@ U 1 1 552B417E
 P 1650 4200
 F 0 "P1" H 1650 4600 50  0000 C CNN
 F 1 "CONN_01X07" V 1750 4200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x07" H 1650 4200 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x07" H 1650 4200 60  0001 C CNN
 F 3 "" H 1650 4200 60  0000 C CNN
 	1    1650 4200
 	-1   0    0    1   
@@ -292,7 +292,7 @@ U 1 1 552B42CF
 P 1650 5200
 F 0 "P2" H 1650 5600 50  0000 C CNN
 F 1 "CONN_01X07" V 1750 5200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x07" H 1650 5200 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x07" H 1650 5200 60  0001 C CNN
 F 3 "" H 1650 5200 60  0000 C CNN
 	1    1650 5200
 	-1   0    0    1   
@@ -346,17 +346,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 1950 5800 1950
 Wire Wire Line
-	4850 3300 5800 3300
-Wire Wire Line
-	5800 3300 5800 3150
-Wire Wire Line
-	4850 3400 5700 3400
-Wire Wire Line
-	5700 3400 5700 3850
-Wire Wire Line
-	5700 3850 6700 3850
-Wire Wire Line
-	6700 3850 6700 1950
+	4850 3400 5800 3400
 Wire Wire Line
 	7250 3150 7250 3900
 Wire Wire Line
@@ -485,28 +475,15 @@ Wire Wire Line
 	3450 3800 3450 3850
 Wire Wire Line
 	3450 3850 3300 3850
-$Comp
-L CONN_01X08 P3
-U 1 1 552B57E3
-P 9350 3800
-F 0 "P3" H 9350 4250 50  0000 C CNN
-F 1 "CONN_01X08" V 9450 3800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x08" H 9350 3800 60  0001 C CNN
-F 3 "" H 9350 3800 60  0000 C CNN
-	1    9350 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 1350 6250 1600
-Wire Wire Line
-	9050 3550 9150 3550
-Text GLabel 6250 1350 0    60   Input ~ 0
+Text GLabel 7750 2800 2    60   Input ~ 0
 Output0
 Text GLabel 6200 2800 0    60   Input ~ 0
 Output1
 Text GLabel 7600 1350 0    60   Input ~ 0
 Output2
-Text GLabel 7750 2800 2    60   Input ~ 0
+Text GLabel 6250 1350 2    60   Input ~ 0
 Output3
 Text GLabel 6300 4100 2    60   Input ~ 0
 Output4
@@ -534,22 +511,12 @@ Text GLabel 9050 3350 0    60   Input ~ 0
 Output0
 Text GLabel 9050 3500 0    60   Input ~ 0
 Output1
-Wire Wire Line
-	9050 3500 9050 3550
-Wire Wire Line
-	9150 3350 9150 3450
 Text GLabel 9050 3650 0    60   Input ~ 0
 Output2
-Wire Wire Line
-	9050 3650 9150 3650
 Text GLabel 9050 3800 0    60   Input ~ 0
 Output3
 Wire Wire Line
-	9050 3800 9050 3750
-Wire Wire Line
-	9050 3750 9150 3750
-Wire Wire Line
-	9050 3350 9150 3350
+	9050 3350 9250 3350
 Text GLabel 9050 3950 0    60   Input ~ 0
 Output4
 Text GLabel 9050 4100 0    60   Input ~ 0
@@ -559,27 +526,9 @@ Output6
 Text GLabel 9050 4400 0    60   Input ~ 0
 Output7
 Wire Wire Line
-	9150 3850 9050 3850
+	9050 4250 9150 4250
 Wire Wire Line
-	9050 3850 9050 3950
-Wire Wire Line
-	9150 3950 9100 3950
-Wire Wire Line
-	9100 3950 9100 4000
-Wire Wire Line
-	9100 4000 9050 4000
-Wire Wire Line
-	9050 4000 9050 4100
-Wire Wire Line
-	9150 4050 9100 4050
-Wire Wire Line
-	9100 4050 9100 4250
-Wire Wire Line
-	9100 4250 9050 4250
-Wire Wire Line
-	9150 4150 9150 4400
-Wire Wire Line
-	9150 4400 9050 4400
+	9050 4400 9200 4400
 Wire Wire Line
 	3700 2800 3900 2800
 Wire Wire Line
@@ -589,4 +538,72 @@ Wire Wire Line
 	3850 4200 3850 4300
 Wire Wire Line
 	1850 4550 1850 4500
+$Comp
+L CONN_4 P4
+U 1 1 553322EF
+P 9600 3500
+F 0 "P4" V 9550 3500 50  0000 C CNN
+F 1 "CONN_4" V 9650 3500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 9600 3500 60  0001 C CNN
+F 3 "" H 9600 3500 60  0000 C CNN
+	1    9600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P3
+U 1 1 5533237A
+P 9550 4000
+F 0 "P3" V 9500 4000 50  0000 C CNN
+F 1 "CONN_4" V 9600 4000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 9550 4000 60  0001 C CNN
+F 3 "" H 9550 4000 60  0000 C CNN
+	1    9550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4400 9200 4150
+Wire Wire Line
+	9150 4250 9150 4050
+Wire Wire Line
+	9150 4050 9200 4050
+Wire Wire Line
+	9050 4100 9100 4100
+Wire Wire Line
+	9100 4100 9100 4000
+Wire Wire Line
+	9100 4000 9200 4000
+Wire Wire Line
+	9200 4000 9200 3950
+Wire Wire Line
+	9050 3950 9150 3950
+Wire Wire Line
+	9150 3950 9150 3850
+Wire Wire Line
+	9150 3850 9200 3850
+Wire Wire Line
+	9050 3800 9250 3800
+Wire Wire Line
+	9250 3800 9250 3650
+Wire Wire Line
+	9050 3650 9200 3650
+Wire Wire Line
+	9200 3650 9200 3550
+Wire Wire Line
+	9200 3550 9250 3550
+Wire Wire Line
+	9050 3500 9150 3500
+Wire Wire Line
+	9150 3500 9150 3450
+Wire Wire Line
+	9150 3450 9250 3450
+Wire Wire Line
+	5800 3400 5800 3150
+Wire Wire Line
+	4850 3300 5450 3300
+Wire Wire Line
+	5450 3300 5450 2500
+Wire Wire Line
+	5450 2500 6700 2500
+Wire Wire Line
+	6700 2500 6700 1950
 $EndSCHEMATC
